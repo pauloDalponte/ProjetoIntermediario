@@ -17,5 +17,4 @@ public class Solicitacao {
     public void setLocalidade(String localidade){
         this.localidade = localidade;
     }
-
 }
