@@ -15,10 +15,12 @@ Documentação Api WeatherBit https://www.weatherbit.io/api/weather-current<br>
    <br>
   <code>Onde "00000000" refere-se ao código posta.</code><br>
 <br>
--Para consulta local, onde ficam armazenadas as informações coletadas durante as consultas basta acessar:<br>
-**localhost:8091/consulta**  <br>
-  Atenção: Ao rodar a Api verifique se a porta configurada não está em uso, para alterar acessa em seu diretório o arquivo *aplication.properties* <br> 
+-Para consulta local, onde ficam armazenadas as informações coletadas durante as consultas<br> 
+ basta acessar: **localhost:8091/consulta**  <br>
+<br>
+  <code>Atenção:</code> Ao rodar a Api verifique se a porta configurada não está em uso, para alterar acessa em seu diretório o arquivo *aplication.properties* <br> 
   e altere o server.port para uma porta a sua escolha.
 
--A rota **localhost:8091/ajuda** está configurada para retornar uma mensagem padrão com nome do Aluno e nome do Projeto.
-  
+-A rota **localhost:8091/ajuda** está configurada para retornar uma mensagem padrão com nome do Aluno e nome do Projeto.<br>
+<br>
+***Toda responsabilidade dos dados e disponibilidade da api são de responsabilidade da Weatherbit.io*** 
