@@ -15,7 +15,8 @@ Documentação Api WeatherBit https://www.weatherbit.io/api/weather-current<br>
    ***}*** <br>
    <br>
   <code>Onde "00000000" refere-se ao código posta.</code><br>
-<br>
+ -Esta Api possui limite de 50 consultas diárias sem custo e um limite de quantidade de solicitações no plano free.<br>
+ <br>
 -Para consulta local, onde ficam armazenadas as informações coletadas durante as consultas<br> 
  basta acessar: **localhost:8091/consulta**  <br>
 <br>
