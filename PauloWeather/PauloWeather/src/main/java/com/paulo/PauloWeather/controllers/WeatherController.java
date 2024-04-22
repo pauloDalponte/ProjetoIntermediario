@@ -42,8 +42,8 @@ public class WeatherController {
           
         listWeathers.add(local);
 
-        String AvisoPrevisao ="Na cidade de"+local.getCidade()+" , estará com uma temperatura em "+local.getTemperatura()+"Graus Celsius, Umidade Relatica do ar na cada dos "
-                                +local.getUmidadeAr()+" ,e com ventos em uma velocidade de "+local.getWind_spd(); 
+        String AvisoPrevisao ="Na cidade de "+local.getCidade()+" , estará com uma temperatura em "+local.getTemperatura()+" Graus Celsius, Umidade Relatica do ar na casa dos "
+                                +local.getUmidadeAr()+" Metros Cubicos ,e com ventos a uma velocidade de "+local.getVelocidadeVento()+" m/s."; 
 
         return ResponseEntity.status(200).body(AvisoPrevisao);
     }

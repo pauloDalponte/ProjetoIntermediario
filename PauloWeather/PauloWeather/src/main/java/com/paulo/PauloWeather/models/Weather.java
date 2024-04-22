@@ -1,50 +1,50 @@
 package com.paulo.PauloWeather.models;
 
 public class Weather {
-    private double temperatura;
-    private String cidade;
-    private double umidadeAr;
-    private double velocidadeVento;
+    private double temp;
+    private String city_name;
+    private double rh;
+    private double wind_spd;
     private String datetime;
 
-    public Weather( double temperatura,String cidade, double umidadeAr, double velocidadeVento, String datetime ){
-        this.temperatura = temperatura;
-        this.cidade = cidade;
-        this.umidadeAr = umidadeAr;
-        this.velocidadeVento = velocidadeVento;
+    public Weather( double temp,String city_name, double rh, double wind_spd, String datetime ){
+        this.temp = temp;
+        this.city_name = city_name;
+        this.rh = rh;
+        this.wind_spd = wind_spd;
         this.datetime =datetime;
     }
 
     public double getTemperatura() {
-        return temperatura;
+        return temp;
     }
 
     public void setTemperatura(double temp) {
-        this.temperatura = temp;
+        this.temp = temp;
     }
 
     public String getCidade() {
-        return cidade;
+        return city_name;
     }
 
     public void setCidade(String city_name) {
-        this.cidade = city_name;
+        this.city_name = city_name;
     }
 
     public double getUmidadeAr() {
-        return umidadeAr;
+        return rh;
     }
 
     public void setUmidadeAr(double rh) {
-        this.umidadeAr = rh;
+        this.rh = rh;
     }
 
-    public double getWind_spd() {
-        return velocidadeVento;
+    public double getVelocidadeVento() {
+        return wind_spd;
     }
 
     public void setVelocidadeVento(double wind_spd) {
-        this.velocidadeVento  = wind_spd;
+        this.wind_spd  = wind_spd;
     }
 
     public String getDatetime() {
