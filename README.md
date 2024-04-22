@@ -1,7 +1,8 @@
 # Projeto Api Previsao do Tempo ☁️☔☀️
 
 Projeto consiste em uma api que irá consultar a situaçao atual do tempo de acordo com o código postar informado.<br>
-Ao fazer a request a api retorna os dados como: Temperatura, Cidade, Umidade Relativa, Velocidade do vento e Data.<br>
+Ao fazer a request a api retorna os dados como: Temperatura, Cidade, Umidade Relativa, Velocidade do vento e Data em formato de mensagem.<br>
+Ex: Na cidade de Sombrio , estará com uma temperatura em 16.3 Graus Celsius, Umidade Relatica do ar na casa dos 90.0 Metros Cubicos ,e com ventos a uma velocidade de 1.271582 m/s.
 
 ### Documentação Api Base:
 Site https://www.weatherbit.io<br>
