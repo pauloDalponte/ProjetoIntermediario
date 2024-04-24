@@ -14,13 +14,13 @@ import com.paulo.PauloWeather.models.Weather;
 import com.paulo.PauloWeather.services.ConverteInfo;
 
 @RestController
-public class WeatherController {
+public class WeatherController{
     @Autowired
     private ConverteInfo converteInfo;
     private ArrayList<Weather> listWeathers = new ArrayList<>();
 
     @GetMapping("/ajuda")
-    public ResponseEntity<Object> help() {
+    public ResponseEntity<Object> help(){
         String student = "Paulo Cesar Dal Ponte";
         String project = "PauloWeather";
         String mensage = "{ "
@@ -42,8 +42,10 @@ public class WeatherController {
           
         listWeathers.add(local);
 
-        String AvisoPrevisao ="Na cidade de "+local.getCidade()+" , estará com uma temperatura em "+local.getTemperatura()+" Graus Celsius, Umidade Relatica do ar na casa dos "
-                                +local.getUmidadeAr()+" Metros Cubicos ,e com ventos a uma velocidade de "+local.getVelocidadeVento()+" m/s."; 
+        String AvisoPrevisao ="Na cidade de "+local.getCidade()+" , estará com uma temperatura em "+local.getTemperatura()
+                                +" Graus Celsius, Umidade Relatica do ar na casa dos "
+                                +local.getUmidadeAr()+" Metros Cubicos ,e com ventos a uma velocidade de "
+                                +local.getVelocidadeVento()+" m/s."; 
 
         return ResponseEntity.status(200).body(AvisoPrevisao);
     }

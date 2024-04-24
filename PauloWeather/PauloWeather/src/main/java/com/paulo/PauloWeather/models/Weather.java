@@ -1,6 +1,6 @@
 package com.paulo.PauloWeather.models;
 
-public class Weather {
+public class Weather{
     private double temp;
     private String city_name;
     private double rh;
@@ -15,43 +15,43 @@ public class Weather {
         this.datetime =datetime;
     }
 
-    public double getTemperatura() {
+    public double getTemperatura(){
         return temp;
     }
 
-    public void setTemperatura(double temp) {
+    public void setTemperatura(double temp){
         this.temp = temp;
     }
 
-    public String getCidade() {
+    public String getCidade(){
         return city_name;
     }
 
-    public void setCidade(String city_name) {
+    public void setCidade(String city_name){
         this.city_name = city_name;
     }
 
-    public double getUmidadeAr() {
+    public double getUmidadeAr(){
         return rh;
     }
 
-    public void setUmidadeAr(double rh) {
+    public void setUmidadeAr(double rh){
         this.rh = rh;
     }
 
-    public double getVelocidadeVento() {
+    public double getVelocidadeVento(){
         return wind_spd;
     }
 
-    public void setVelocidadeVento(double wind_spd) {
-        this.wind_spd  = wind_spd;
+    public void setVelocidadeVento(double wind_spd){
+        this.wind_spd = wind_spd;
     }
 
-    public String getDatetime() {
+    public String getDatetime(){
         return datetime;
     }
 
-    public void setDatetime(String datetime) {
+    public void setDatetime(String datetime){
         this.datetime = datetime;
     }
 }

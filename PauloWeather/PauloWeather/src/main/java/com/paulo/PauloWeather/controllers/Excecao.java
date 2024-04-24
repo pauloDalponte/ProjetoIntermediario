@@ -6,10 +6,9 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
-public class ExceptionApi {
-
+public class Excecao{
     @ExceptionHandler(RuntimeException.class)
-    public ResponseEntity<Object> handleRuResponseEntity(RuntimeException ex) {
+    public ResponseEntity<Object> handleRuResponseEntity(RuntimeException ex){
 
         return ResponseEntity
             .status(HttpStatus.SERVICE_UNAVAILABLE)

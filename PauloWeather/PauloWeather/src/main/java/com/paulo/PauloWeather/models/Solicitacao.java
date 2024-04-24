@@ -1,9 +1,9 @@
 package com.paulo.PauloWeather.models;
 
-public class Solicitacao {
+public class Solicitacao{
     private String localidade;
 
-    public Solicitacao() {
+    public Solicitacao(){
     }
 
     public Solicitacao(String localidade){
